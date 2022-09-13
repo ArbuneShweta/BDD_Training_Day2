@@ -77,7 +77,6 @@ namespace SpecFlowProject1.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Add Emergency Contact")]
         [NUnit.Framework.TestCaseAttribute("admin", "admin123", "shweta", "sister", "03453434", "98898989", "0242324", null)]
-        [NUnit.Framework.TestCaseAttribute("admin2", "admin123", "mummy", "sister", "03453434", "98898989", "0242324", null)]
         public virtual void AddEmergencyContact(string username, string password, string name, string relationship, string home_Telephone, string mobile, string work_Telephone, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;

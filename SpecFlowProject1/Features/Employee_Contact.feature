@@ -19,4 +19,3 @@ Scenario Outline: Add Emergency Contact
 	Examples:
       | username | password | name   | relationship | home_telephone | mobile   | work_telephone |
       | admin    | admin123 | shweta | sister       | 03453434       | 98898989 | 0242324        |
-      | admin2    | admin123 | mummy | sister       | 03453434       | 98898989 | 0242324        |

@@ -34,7 +34,7 @@ namespace Specflow_Automation.StepDefinitions
         [When(@"I click on login")]
         public void WhenIClickOnLogin()
         {
-            Console.WriteLine("thanks");
+            AutomationHooks.driver.FindElement(By.CssSelector("button[type='submit']")).Click();
         }
 
         [Then(@"I should be navigate to '([^']*)' dashboard screen")]
